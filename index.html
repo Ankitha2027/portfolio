@@ -1,0 +1,243 @@
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rathod</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="particle-canvas" aria-label="Decorative background animation with stars and cursor-following circles"></canvas>
+    <!-- nav links section -->
+    <nav class="nav">
+        <a href="#home" class="nav-brand">ANKITHA</a>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active" aria-current="page">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#certifications" class="nav-link">Certifications</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- profile section -->
+    <section class="section profile-section" id="profile">
+        <img src="profile.jpg" alt="Rathod Ankitha, Full Stack Developer" class="profile-img animate" style="animation-delay: 0.1s;">
+    </section>
+
+    <main class="main-container">
+        <section class="section home-section" id="home">
+            <div class="box">
+                <h1 class="animate" style="animation-delay: 0.2s;">Hi, I'm Rathod Ankitha</h1>
+                <p class="animate" style="animation-delay: 0.3s;">
+                    Building seamless web experiences from pixel-perfect interfaces to powerful backends.
+                    I bridge design and development with clean code, intuitive UX, and scalable architecture.
+                    Passionate about creating digital products that look stunning and perform flawlessly.
+                </p>
+                <div class="btn-group animate" style="animation-delay: 0.4s;">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+        </section>
+        <!-- about section -->
+        <section class="section about-section" id="about">
+            <div class="box">
+                <h2>About Me</h2>
+                <p>
+                    Hello! I’m Rathod Ankitha, a final-year B.Tech student at Vidya Jyothi Institute of Technology, passionate about designing experiences and building for the web. I’m on a journey where creativity meets code — blending UI/UX design and web development to create digital solutions that are thoughtful, functional, and user-friendly.
+                </p>
+                <p>
+                    My foundation lies in web development, where I’ve built responsive, modern websites using tools like HTML, CSS, and JavaScript. As I explored deeper, I realized that the real magic happens when design and development come together—leading me to discover my love for UI/UX. Since then, I’ve been learning tools like Figma, diving into design thinking.
+                </p>
+                <div class="btn-group animate" style="animation-delay: 0.5s;">
+                    <a href="resume.pdf" class="btn btn-primary" download>Download Resume</a>
+                </div>
+            </div>
+        </section>
+        <!-- skills section -->
+        <section class="section skills-section" id="skills">
+            <div class="box">
+                <h2>My Skills</h2>
+                <div class="circular-skill-grid">
+                    <div class="circular-skill animate" style="animation-delay: 0.1s;">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring__circle" stroke="#e6e6e6" stroke-width="10" fill="transparent" r="50" cx="60" cy="60" />
+                            <circle class="progress-ring__circle--value" stroke="#4caf50" stroke-width="10" fill="transparent" r="50" cx="60" cy="60" data-percent="90" />
+                        </svg>
+                        <div class="skill-label">HTML&CSS</div>
+                    </div>
+                    <div class="circular-skill animate" style="animation-delay: 0.2s;">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring__circle" stroke="#e6e6e6" stroke-width="10" fill="transparent" r="50" cx="60" cy="60" />
+                            <circle class="progress-ring__circle--value" stroke="#f39c12" stroke-width="10" fill="transparent" r="50" cx="60" cy="60" data-percent="85" />
+                        </svg>
+                        <div class="skill-label">MySQL</div>
+                    </div>
+                    <div class="circular-skill animate" style="animation-delay: 0.2s;">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring__circle" stroke="#e6e6e6" stroke-width="10" fill="transparent" r="50" cx="60" cy="60" />
+                            <circle class="progress-ring__circle--value" stroke="#f39c12" stroke-width="10" fill="transparent" r="50" cx="60" cy="60" data-percent="85" />
+                        </svg>
+                        <div class="skill-label">UI/UX</div>
+                    </div>
+                    <div class="circular-skill animate" style="animation-delay: 0.3s;">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring__circle" stroke="#e6e6e6" stroke-width="10" fill="transparent" r="50" cx="60" cy="60" />
+                            <circle class="progress-ring__circle--value" stroke="#3498db" stroke-width="10" fill="transparent" r="50" cx="60" cy="60" data-percent="65" />
+                        </svg>
+                        <div class="skill-label">Java</div>
+                    </div>
+                    <div class="circular-skill animate" style="animation-delay: 0.3s;">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring__circle" stroke="#e6e6e6" stroke-width="10" fill="transparent" r="50" cx="60" cy="60" />
+                            <circle class="progress-ring__circle--value" stroke="#3498db" stroke-width="10" fill="transparent" r="50" cx="60" cy="60" data-percent="60" />
+                        </svg>
+                        <div class="skill-label">JavaScript</div>
+                    </div>
+                    <div class="circular-skill animate" style="animation-delay: 0.3s;">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring__circle" stroke="#e6e6e6" stroke-width="10" fill="transparent" r="50" cx="60" cy="60" />
+                            <circle class="progress-ring__circle--value" stroke="#3498db" stroke-width="10" fill="transparent" r="50" cx="60" cy="60" data-percent="70" />
+                        </svg>
+                        <div class="skill-label">C</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- projects section -->
+        <section class="section projects-section" id="projects">
+            <div class="box">
+                <h2>My Projects</h2>
+                <div class="project-grid">
+                    <div class="project-card animate" style="animation-delay: 0.1s;">
+                        <h3>Project One</h3>
+                        <h4>Traffic Management For Emergency Vehicle Priority Based On Visual Sensing.</h4>
+                        <p></p>
+                        <div class="project-links">
+                            <a href="p-1.pptx" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                    <div class="project-card animate" style="animation-delay: 0.2s;">
+                        <h3>Project Two</h3>
+                        <h4>Skin Disease Detection Using Machine Learning</h4>
+                        <p></p>
+                        <div class="project-links">
+                            <a href="p-2.pptx" target="_blank" class="project-link">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- education section -->
+        <section class="section education-section" id="education">
+            <div class="box">
+                <h2>Education</h2>
+                <div class="education-grid">
+                    <div class="education-box animate" style="animation-delay: 0.1s;">
+                        <h3>Bachelor of Technology</h3>
+                        <p><strong>Vidya Jyothi Institute Of Technology</strong> | 2022-2026</p>
+                        <p>In Artificial Intelligence & Data Science with <br><strong>CGPA: 7.28</strong></p>
+                    </div>
+                    <div class="education-box animate" style="animation-delay: 0.2s;">
+                        <h3>Intermediate</h3>
+                        <p><strong>Sahithi Junior College</strong> 2020-2022</p>
+                        <p>In MPC (Maths, Physics, and Chemistry) with <strong>80.3%</strong></p>
+                    </div>
+                    <div class="education-box animate" style="animation-delay: 0.2s;">
+                        <h3>Secondary School Certificate</h3>
+                        <p><strong>Gayathri Vidyalayam High School</strong>  2020</p>
+                        <p>with <strong>GPA: 9.8</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- certifications section -->
+        <section class="section certifications-section" id="certifications">
+            <div class="box">
+                <h2>Certifications</h2>
+                <div class="certification-cards">
+                    <div class="cert-card animate" style="animation-delay: 0.1s;">
+                        <i class="fas fa-python cert-icon"></i>
+                        <div class="cert-info">
+                            <h3>UI/UX for Beginners</h3>
+                            <p>Issued by Simplilearn | SkillUp</p>
+                            <a href="ui.ux.pdf" target="_blank" class="cert-link">View Certificate</a>
+                        </div>
+                    </div>
+                    <div class="cert-card animate" style="animation-delay: 0.2s;">
+                        <i class="fas fa-laptop-code cert-icon"></i>
+                        <div class="cert-info">
+                            <h3>Responsive Web Design</h3>
+                            <p>Issued by FreeCodeCamp</p>
+                            <a href="html.png" target="_blank" class="cert-link">View Certificate</a>
+                        </div>
+                    </div>
+                    <div class="cert-card animate" style="animation-delay: 0.3s;">
+                        <i class="fas fa-code cert-icon"></i>
+                        <div class="cert-info">
+                            <h3>Programming Essentials in C</h3>
+                            <p>Issued by Cisco</p>
+                            <a href="c.pdf" target="_blank" class="cert-link">View Certificate</a>
+                        </div>
+                    </div>
+                    <div class="cert-card animate" style="animation-delay: 0.4s;">
+                        <i class="fas fa-python cert-icon"></i>
+                        <div class="cert-info">
+                            <h3>Programming Essentials in Python</h3>
+                            <p>Issued by Cisco</p>
+                            <a href="py.pdf" target="_blank" class="cert-link">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section -->
+        <section class="section contact-section" id="contact">
+            <div class="box">
+                <h2>Contact Me</h2>
+                <p>
+                    Have a project in mind or just want to chat? Feel free to reach out!
+                </p>
+                <div class="contact-form">
+                    <input type="text" id="name" class="form-field animate" placeholder="Your Name" required style="animation-delay: 0.1s;">
+                    <input type="email" id="email" class="form-field animate" placeholder="Your Email" required style="animation-delay: 0.2s;">
+                    <textarea id="message" class="form-field animate" placeholder="Your Message" required style="animation-delay: 0.3s;"></textarea>
+                    <input type="hidden" id="form-hashid" value="rathodankitha7@gmail.com-portfolio-form">
+                    <button id="submit-btn" class="btn btn-primary animate" style="animation-delay: 0.4s;">Send Message</button>
+                    <p id="form-message" class="animate" style="animation-delay: 0.5s;"></p>
+                </div>
+                <ul class="contact-links animate" style="animation-delay: 0.5s;">
+                    <li class="contact-link"><a href="mailto:rathodankitha7@gmail.com" target="_blank"><i class="fas fa-envelope"></i> rathodankitha7@gmail.com</a></li>
+                    <li class="contact-link"><a href="https://www.linkedin.com/in/ankitha-rathod-75611725a/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li class="contact-link"><a href="https://github.com/Ankitha2027" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>© 2025 Ankitha. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/Ankitha2027" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ankitha-rathod-75611725a/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="https://x.com/rathod_ankitha" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="back-to-top" id="backToTopBtn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
